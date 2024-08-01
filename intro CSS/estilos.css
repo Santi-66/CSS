@@ -1,0 +1,47 @@
+/* a{
+    color:black;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+} */
+
+ /* selector por nombre de etiqueta */
+ p{
+    color:tomato;
+ }
+/* selector por id -> #*/
+ #xx{
+    color: gold;
+ }
+
+ #x2{
+    color: silver;
+ }
+ /* selesctor por clase*/
+ .colorTexto{
+    color: aqua;
+    font-weight: bold;
+ }
+ .colorfondo{
+    background-color: black;
+ }
+
+ /* por especifidad nombre etiqueta y identificador*/
+
+ #p1{
+  color: rgb(21, 250, 0);
+ }
+
+ .p1{
+    color:rgb(9, 21, 237);
+ }
+ 
+ /* por jerarquia directa(>)*/
+ div> div > p{
+    color: greenyellow;
+ }
+/*JERARQUIA INDIRECTA(_)*/
+ div p {
+   color: blue;
+ }
